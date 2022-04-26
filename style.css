@@ -1,0 +1,37 @@
+.parent{
+    background-color: violet;
+    height: 100px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, ifr);
+    grid-template-rows: 80px 100px 50px;
+} 
+
+.box{
+    height: 100px;
+}
+
+.box1{
+    background-color: aqua;
+    grid-column: span 12;
+}
+
+.box2{
+    background-color: bisque;
+    grid-column: span 2;
+}
+
+.box3{
+    background-color: greenyellow;
+    grid-column: span 2;
+}
+
+.box4{
+    background-color: red;
+    grid-column: span 2;
+} 
+
+.box5{
+    background-color: pink;
+    grid-column: span 12;
+}
